@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    font-family: 'Open Sans', 'Roboto', sans-serif;
+    background-color: #ffffff;
+    color: #333333;
+  }
+  
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+/* Estilos del Header */
+.header {
+    width: 100%;
+    padding: 1rem 0;
+    border-bottom: 1px solid #e0e0e0;
+    background-color: #fff;
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo img {
+    height: 40px;
+  }
+  
+  .nav {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+  }
+  
+  .nav a {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    color: #333;
+  }
+  
+  .btn-login {
+    background-color: #f72585;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border-radius: 25px;
+    font-weight: bold;
+  }
+  
+  .btn-signup {
+    color: #f72585;
+    font-weight: bold;
+  }
+  
+
+  
