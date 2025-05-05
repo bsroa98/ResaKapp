@@ -1,0 +1,51 @@
+/* Base de Tabs */
+.modal-tabs {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-bottom: 2rem;
+  }
+  
+  /* Cada Tab */
+  .tab {
+    background: none;
+    border: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 1.1rem;
+    cursor: pointer;
+    position: relative;
+    padding-bottom: 0.5rem;
+    color: #333;
+  }
+  
+  /* Pseudoelemento barra inferior */
+  .tab::after {
+    content: '';
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    width: 0;
+    height: 6px;
+    background-color: #f72585;
+    border-radius: 999px;
+    transition: width 0.3s ease;
+  }
+  
+  /* Tab activa */
+  .active-tab {
+    color: #f72585;
+  }
+  
+  /* Mostrar barra rosa cuando está activa */
+  .active-tab::after {
+    width: 60%;
+  }
+  
+  /* Hover en tabs (no activos) */
+  .tab:hover::after {
+    width: 30%; /* Insinúa un poco más pequeño que active */
+    background-color: #f72585;
+  }
+  

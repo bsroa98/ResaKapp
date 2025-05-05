@@ -1,0 +1,46 @@
+/* categories.css */
+.categories-carousel {
+    padding: 2rem 0;
+    background-color: #ffffff;
+    text-align: center;
+  }
+  
+  .categories-carousel h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: #333;
+  }
+  
+  .categories-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+  }
+  
+  .category-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 120px;
+    transition: transform 0.3s ease;
+  }
+  
+  .category-card img {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+    margin-bottom: 0.5rem;
+  }
+  
+  .category-card p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    color: #555;
+  }
+  
+  .category-card:hover {
+    transform: scale(1.05);
+  }
+  

@@ -6,25 +6,37 @@
   <title>Resa-K | Inicio</title>
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="../Styles/main.css">
+  <link rel="stylesheet" href="../Styles/header.css">
+  <link rel="stylesheet" href="../Styles/categories.css">
+  <link rel="stylesheet" href="../Styles/cards.css">
+  <link rel="stylesheet" href="../Styles/buttons.css">
+  <link rel="stylesheet" href="../Styles/modal.css">
+  <link rel="stylesheet" href="../Styles/tabs.css">
+  <link rel="stylesheet" href="../Styles/user-menu.css">
+  <link rel="stylesheet" href="../Styles/search-filter.css">
+
 </head>
 <body>
     <header class="header">
-        <div class="container">
-          <div class="logo">
-            <img src="../assets/images/LogoSmall.jpg" alt="Resa-K Logo">
-          </div>
-      
-          <nav class="nav">
-            <a href="#">¿Eres un organizador?</a>
-            <a href="#">🌐</a>
-            <a href="/Pages/" class="btn-login">Login</a>
-            <a href="#" class="btn-signup">Sign Up</a>
-          </nav>
-        </div>
-      </header>
-  <main></main>
+        <div id="header"></div>
+    </header>
+  <main>
+    <section class="hero"></section>
+    <section>
+        <div id="search-filter"></div>
+        <div id="categories-carousel"></div>    
+    </section>
+    <section>
+        <div id="event-cards"></div>
+    </section>
+  </main>
   <footer></footer>
 
-  <script src="../js/main.js"></script>
+  <script type="module" src="../js/main.js"></script>
+  <script src="../js/login.js"></script>
+  <script type="module" src="../js/header.js"></script>
+  <script type="module" src="../js/filtros.js"></script>
+  <script src="https://accounts.google.com/gsi/client" async defer></script>
+  <script src="../js/google-auth.js"></script>
 </body>
 </html>

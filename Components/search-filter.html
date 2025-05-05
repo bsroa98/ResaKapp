@@ -1,0 +1,31 @@
+<section class="search-bar-section">
+  <div class="search-bar">
+    <input type="text" id="search-input" placeholder="Buscar eventos por nombre o ubicación...">
+    <button id="filter-button">Filtros</button>
+  </div>
+</section>
+
+<!-- Modal de filtros -->
+<div id="filter-modal" class="modal hidden">
+  <div class="modal-content-1">
+    <span id="close-modal" class="close">&times;</span>
+    <h3>Filtrar eventos</h3>
+
+    <label for="precio-min">Precio mínimo:</label>
+    <input type="number" id="precio-min" placeholder="Ej. 100">
+
+    <label for="precio-max">Precio máximo:</label>
+    <input type="number" id="precio-max" placeholder="Ej. 1000">
+
+    <label for="edad-min">Edad recomendada mínima:</label>
+    <input type="number" id="edad-min" placeholder="Ej. 5">
+
+    <label for="edad-max">Edad recomendada máxima:</label>
+    <input type="number" id="edad-max" placeholder="Ej. 18">
+
+    <label for="ubicacion">Ubicación (barrio):</label>
+    <input type="text" id="ubicacion" placeholder="Ej. Cedritos">
+
+    <button id="apply-filters">Aplicar</button>
+  </div>
+</div>

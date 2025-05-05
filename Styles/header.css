@@ -1,0 +1,67 @@
+/* header.css */
+.header {
+    width: 100%;
+    padding: 1rem 0;
+    border-bottom: 1px solid #e0e0e0;
+    background-color: #fff;
+  }
+  
+  .header .container {
+    display: flex; /* <- Esto organiza logo + nav en horizontal */
+    justify-content: space-between; /* <- Logo a la izquierda, nav a la derecha */
+    align-items: center; /* <- Centrado verticalmente */
+  }
+  
+  .logo img {
+    height: 40px;
+  }
+  
+  .nav {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+  }
+
+  .user-info {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.5rem; /* Más compacto */
+  }
+  
+  .menu-toggle {
+    display: flex;
+    align-items: center;     /* Centra verticalmente */
+    justify-content: space-between; /* Separa el icono y la inicial */
+    gap: 0.5rem;             /* ⚡ O espacio entre ellos */
+    background-color: #f2f2f2;
+    border: none;
+    border-radius: 999px;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+  }
+  
+  .menu-icon {
+    width: 24px;
+    height: 24px;
+  }
+  
+  .user-initial {
+    width: 32px;
+    height: 32px;
+    border: 2px solid black;
+    border-radius: 50%;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 1rem;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+  }
+  
+  
+  
+  
